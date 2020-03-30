@@ -1,0 +1,22 @@
+﻿@model Club
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <title>EditClub</title>
+</head>
+<body>
+    <main>
+        <h2>Edit Club Detials</h2>
+        <form method="post" class="club" asp-action="EditClub" asp-controller="Club">
+            @Html.Partial("AddClubPartialView")
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Club>
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+    <title>ClubDetails</title>
+</head>
+<body>
+    <main>
+        <h2>Club Details</h2>
+        @if (TempData["msg"] != null)
+        {
+            <div>@TempData["msg"]</div>
+
+        }
+        <table>
+            @foreach (Club club in Model)
+            {
+                <tr>
+                    <td>@club.Name</td>
+                    <td>Locatoin : @club.City , @club.Country</td>
+                    <td>
+                        <a class="button" asp-action="EditClub" asp-route-id="@club.ID">
+                            Update
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>@club.Website</td>
+                    <td>Matches Played : @club.MatchesPlayed</td>
+                    <td>
+                        <form asp-action="Delete" method="post">
+                            <input type="hidden" name="ID" value="@club.ID" />
+                            <button class="button" type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Partners : @club.Partners</td>
+                    <td>Club Category : @club.Category</td>
+                    <td>
+                        <a class="button" asp-action="Player" asp-route-id="@club.Name" asp-controller="Player">
+                            Players
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">@club.Description</td>
+                </tr>
+            }
+        </table>
+
+        <a class="button" asp-action="ManagePlayers" asp-controller="Player">
+            Add Player
+        </a>
+
+    </main>
+</body>
+</html>

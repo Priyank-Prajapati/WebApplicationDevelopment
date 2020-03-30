@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Club" asp-action="/Club">Clubs</a></li>
+                <li><a asp-controller="Club" asp-action="/AddClub">Add Club</a></li>
+                <li><a asp-controller="Club" asp-action="ClubDetails">Club Details</a></li>
+                <li><a asp-controller="Player" asp-action="/ManagePlayers">Manage Players</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

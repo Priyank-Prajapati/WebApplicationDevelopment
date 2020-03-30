@@ -1,0 +1,58 @@
+﻿@model Player
+
+@if (TempData["message"] != null)
+{
+    <div>@TempData["message"]</div>
+   
+}
+<p>
+    <input type="hidden" asp-for="ID" />
+</p>
+<p>
+    <label asp-for="FirstName">First Name:</label>
+    <input asp-for="FirstName" />
+</p>
+<p>
+    <label asp-for="LastName">Last Name:</label>
+    <input asp-for="LastName" />
+</p>
+<p>
+    <label asp-for="FieldName">Field Name:</label>
+    <input asp-for="FieldName" />
+</p>
+<p>
+    <label asp-for="BirthDate">Birth-date:</label>
+    <input asp-for="BirthDate" type="date" />
+</p>
+<p>
+    <label asp-for="Gender">Gender:</label>
+    <select id="Gender" asp-for="Gender" >
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+</p>
+<p>
+    <label asp-for="Country">Country:</label>
+    <input asp-for="Country" />
+</p>
+<p>
+    <label>Club:</label>
+    @if (ViewBag.Name != null)
+    {
+        <select id="Club" asp-for="Club">
+            <option value="@ViewBag.Name">@ViewBag.Name</option>
+        </select>
+    }
+    else
+    {
+        <select id="Club" asp-for="Club">
+            @foreach(var item in ViewBag.Club)
+            {
+                <option value="@item.Name">@item.Name</option>
+            }
+        </select>
+    }
+</p>
+<p>
+    <button class="button" type="submit" style="vertical-align:middle"><span>ADD</span></button>
+</p>

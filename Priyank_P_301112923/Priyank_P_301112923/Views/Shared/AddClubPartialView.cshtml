@@ -1,0 +1,45 @@
+﻿@model Club
+
+        <p>
+            <input type="hidden" asp-for="ID" />
+        </p>
+        <p>
+            <label asp-for="Name">Club Name:</label>
+            <input asp-for="Name" />
+        </p>
+        <p>
+            <label asp-for="Website">Official Website:</label>
+            <input asp-for="Website" />
+        </p>
+        <p>
+            <label asp-for="City">City:</label>
+            <input asp-for="City" />
+        </p>
+        <p>
+            <label asp-for="Country">Country:</label>
+            <input asp-for="Country" />
+        </p>
+        <p>
+            <label asp-for="MatchesPlayed">Matches Played:</label>
+            <input asp-for="MatchesPlayed" />
+        </p>
+        <p>
+            <label asp-for="Partners">Partners:</label>
+            <input asp-for="Partners" />
+        </p>
+        <p>
+            <label>Club Category:</label>
+            <select asp-for="Category">
+                <option value="Local">Local</option>
+                <option value="National">National</option>
+                <option value="International">International</option>
+            </select>
+        </p>
+        <p>
+            <label>Club Description:</label>
+            <textarea asp-for="Description" placeholder="Description about your club" cols="100"></textarea>
+        </p>
+        <p>
+            <button class="button" type="submit">Save</button>
+            <button class="button" type="reset">Cancel</button>
+        </p>

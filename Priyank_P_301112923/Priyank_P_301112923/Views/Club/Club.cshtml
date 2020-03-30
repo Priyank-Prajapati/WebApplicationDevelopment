@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Club>
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+    <title>Home</title>
+</head>
+    <body>
+        <main>
+            <h2>CLUBS</h2>
+            <table>
+                @foreach (Club club in Model)
+                {
+                    <tr>
+                        <td><a asp-action="ClubList" asp-route-id="@club.Name">@club.Name</a></td>
+                        <td>    </td>
+                    </tr>
+                }
+            </table>
+        </main>
+    </body>
+</html>

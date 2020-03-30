@@ -1,0 +1,81 @@
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_1\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_2\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Cent\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+C:\Users\yamba\Desktop\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\New folder\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.deps.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.runtimeconfig.dev.json
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\bin\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.csprojAssemblyReference.cache
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfoInputs.cache
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.AssemblyInfo.cs
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.dll
+D:\Cent\CoursesSem3\Web Application Development\Assignment\Assign_3\Priyank_P_301112923\Priyank_P_301112923\obj\Debug\netcoreapp2.0\Priyank_P_301112923.pdb
