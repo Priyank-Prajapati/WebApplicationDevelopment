@@ -1,9 +1,8 @@
 ﻿@model Priyank_P_301112923.Models.ViewModels.LoginModel
 @{ 
     ViewBag.Title = "Log In";
-    Layout = "_Layout";
 }
-
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
     <form asp-action="Login" asp-controller="Account" method="post">
         <h2>Log In</h2>
         <input type="hidden" asp-for="ReturnUrl" />
