@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Priyank_P_301112923.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace Priyank_P_301112923
 {
@@ -25,6 +26,12 @@ namespace Priyank_P_301112923
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration["Data:SoccerClubs:ConnectionString"]));
+            services.AddDbContext<AppIdentityDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration["Data:SoccerClubsIdentity:ConnectionString"]));
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
             services.AddTransient<IClubRepository, EFClubRepository>();
             services.AddTransient<IPlayerRepository, EFPlayerRepository>();
             services.AddMvc();
@@ -39,7 +46,7 @@ namespace Priyank_P_301112923
             }
 
             app.UseStaticFiles();
-            //app.UseStatusCodePages();
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -47,6 +54,7 @@ namespace Priyank_P_301112923
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
             SeedData.EnsurePopulated(app);
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

@@ -22,8 +22,12 @@ ul {
     top: 0;
 }
 
-li {
+.left {
     float: left;
+}
+
+.right{
+    float: right;
 }
 
 li a 

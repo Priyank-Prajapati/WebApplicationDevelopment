@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_3\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj": {}
+    "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_4\\WebApplicationDevelopment\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj": {}
   },
   "projects": {
-    "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_3\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj": {
+    "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_4\\WebApplicationDevelopment\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_3\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj",
+        "projectUniqueName": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_4\\WebApplicationDevelopment\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj",
         "projectName": "Priyank_P_301112923",
-        "projectPath": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_3\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj",
+        "projectPath": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_4\\WebApplicationDevelopment\\Priyank_P_301112923\\Priyank_P_301112923\\Priyank_P_301112923.csproj",
         "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
-        "outputPath": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_3\\Priyank_P_301112923\\Priyank_P_301112923\\obj\\",
+        "outputPath": "D:\\Cent\\CoursesSem3\\Web Application Development\\Assignment\\Assign_4\\WebApplicationDevelopment\\Priyank_P_301112923\\Priyank_P_301112923\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

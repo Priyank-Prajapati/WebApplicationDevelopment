@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Priyank_P_301112923.Models;
 
@@ -16,10 +17,12 @@ namespace Priyank_P_301112923.Controllers
             repository = repo;
         }
         public ViewResult Club() => View(repository.Clubs);
+       [Authorize]
         public ViewResult EditClub(int ID) => View(repository.Clubs
             .FirstOrDefault(c => c.ID == ID));
 
         [HttpPost]
+        [Authorize]
         public IActionResult EditClub(Club club)
         {
             if(ModelState.IsValid)
@@ -34,6 +37,7 @@ namespace Priyank_P_301112923.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult Delete(int ID)
         {
             Club deletedclub = repository.DeleteClub(ID);
@@ -45,20 +49,20 @@ namespace Priyank_P_301112923.Controllers
         }
         public ViewResult ClubDetails() => View(repository.Clubs);
         [HttpGet]
-        [Route("/Club/ClubDetails/{id}")]
+        //[Route("/Club/ClubDetails/{id}")]
         public ViewResult ClubList(string ID)
         {
             return View("ClubDetails", repository.Clubs.Where(c => c.Name == ID));
         }
 
-        //public ViewResult Club() => View(repository.Clubs);
-
         [HttpGet]
+        [Authorize]
         public ViewResult AddClub()
         {
             return View();
         }
         [HttpPost]
+        [Authorize]
         public ViewResult AddClub(Club club)
         {
             repository.AddClub(club);
