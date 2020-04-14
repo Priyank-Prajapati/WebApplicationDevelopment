@@ -1,0 +1,22 @@
+﻿@model Player
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <title>ManagePlayers</title>
+</head>
+<body>
+    <main>
+        <h2>Edit Players</h2>
+        <form method="post" asp-action="EditPlayer" asp-controller="Player">
+            @Html.Partial("AddPlayerPartialView")
+        </form>
+    </main>
+</body>
+</html>

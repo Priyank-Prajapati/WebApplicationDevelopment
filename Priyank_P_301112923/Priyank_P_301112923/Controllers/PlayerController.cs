@@ -19,6 +19,7 @@ namespace Priyank_P_301112923.Controllers
             clubRepository = clubRepo;
         }
         [HttpGet]
+        [Authorize]
         public ViewResult ManagePlayers()
         {
             ViewBag.club = clubRepository.Clubs;
@@ -31,12 +32,45 @@ namespace Priyank_P_301112923.Controllers
             repository.AddPlayer(player);
             ModelState.Clear();
             ViewBag.club = clubRepository.Clubs;
-            TempData["message"] = $"{player.FirstName+" "+player.LastName} has been Added to {player.Club}";
+            TempData["message"] = $"{player.FirstName + " " + player.LastName} has been Added to {player.Club}";
             return View();
         }
         public ViewResult Player(string ID)
         {
             return View("Player", repository.Players.Where(player => player.Club == ID));
+        }
+        [Authorize]
+        public ViewResult EditPlayer(int ID)
+        {
+            ViewBag.club = clubRepository.Clubs;
+            return View(repository.Players.FirstOrDefault(p => p.ID == ID));
+        }
+        [HttpPost]
+        [Authorize]
+        public IActionResult EditPlayer(Player player)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.club = clubRepository.Clubs;
+                repository.AddPlayer(player);
+                return RedirectToAction("Player");
+            }
+            else
+            {
+                return View(player);
+            }
+        }
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult Delete(int ID)
+        {
+            Player deletedplayer = repository.DeletePlayer(ID);
+            if (deletedplayer != null)
+            {
+                TempData["pmsg"] = $"{deletedplayer.FirstName} was deleted";
+            }
+            return RedirectToAction("/Player/" + deletedplayer.Club);
         }
     }
 }

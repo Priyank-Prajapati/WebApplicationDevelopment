@@ -7,12 +7,16 @@ namespace Priyank_P_301112923.Models
 {
     public class PlayerRepository
     {
-        public static List<Player> Players = new List<Player>() { };
+        public static List<Player> Players = new List<Player>() 
+        { };
 
         public static IQueryable<Player> Club
         {
             get { return Players.AsQueryable<Player>(); }
         }
-        public static void AddPlayer(Player response) { Players.Add(response); }
+        public static void AddPlayer(Player response) 
+        { 
+            Players.Add(response); 
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace Priyank_P_301112923.Models
     {
         IQueryable<Player> Players { get; }
         void AddPlayer(Player p);
+        Player DeletePlayer(int ID);
     }
 }

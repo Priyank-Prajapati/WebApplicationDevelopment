@@ -37,5 +37,16 @@ namespace Priyank_P_301112923.Models
             }
             context.SaveChanges();
         }
+        public Player DeletePlayer(int ID)
+        {
+            Player dbEntry = context.Players
+                .FirstOrDefault(p => p.ID == ID);
+            if (dbEntry != null)
+            {
+                context.Players.Remove(dbEntry);
+                context.SaveChanges();
+            }
+            return dbEntry;
+        }
     }
 }

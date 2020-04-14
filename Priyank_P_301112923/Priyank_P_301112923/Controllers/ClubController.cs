@@ -49,7 +49,6 @@ namespace Priyank_P_301112923.Controllers
         }
         public ViewResult ClubDetails() => View(repository.Clubs);
         [HttpGet]
-        //[Route("/Club/ClubDetails/{id}")]
         public ViewResult ClubList(string ID)
         {
             return View("ClubDetails", repository.Clubs.Where(c => c.Name == ID));

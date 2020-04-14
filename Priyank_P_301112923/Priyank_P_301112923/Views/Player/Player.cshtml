@@ -29,8 +29,15 @@
                 </tr>
                 <tr>
                     <td>
-                        <button class="button">Update</button>
-                        <button class="button">Delete</button>
+                        <a class="button" asp-action="EditPlayer" asp-route-id="@player.ID">
+                            Update
+                        </a>
+                    </td>
+                    <td>
+                        <form asp-action="Delete" method="post">
+                            <input type="hidden" name="ID" value="@player.ID" />
+                            <button class="button" type="submit">Delete</button>
+                        </form>
                     </td>
 
                 </tr>
