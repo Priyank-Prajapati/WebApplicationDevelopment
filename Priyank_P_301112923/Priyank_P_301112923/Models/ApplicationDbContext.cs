@@ -14,5 +14,6 @@ namespace Priyank_P_301112923.Models
             : base(options) { }
         public DbSet<Club> Clubs { get; set; }
         public DbSet<Player> Players { get; set; }
+        public DbSet<Merchandise> Merchandises { get; set; }
     }
 }

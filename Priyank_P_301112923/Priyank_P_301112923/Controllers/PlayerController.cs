@@ -18,7 +18,7 @@ namespace Priyank_P_301112923.Controllers
             repository = repo;
             clubRepository = clubRepo;
         }
-        [HttpGet]
+
         [Authorize]
         public ViewResult ManagePlayers()
         {
@@ -32,7 +32,7 @@ namespace Priyank_P_301112923.Controllers
             repository.AddPlayer(player);
             ModelState.Clear();
             ViewBag.club = clubRepository.Clubs;
-            TempData["message"] = $"{player.FirstName + " " + player.LastName} has been Added to {player.Club}";
+            TempData["message"] = $"{player.FirstName+" "+player.LastName} has been Added to {player.Club}";
             return View();
         }
         public ViewResult Player(string ID)
@@ -70,7 +70,7 @@ namespace Priyank_P_301112923.Controllers
             {
                 TempData["pmsg"] = $"{deletedplayer.FirstName} was deleted";
             }
-            return RedirectToAction("/Player/" + deletedplayer.Club);
+            return RedirectToAction("/Player/"+deletedplayer.Club);
         }
     }
 }

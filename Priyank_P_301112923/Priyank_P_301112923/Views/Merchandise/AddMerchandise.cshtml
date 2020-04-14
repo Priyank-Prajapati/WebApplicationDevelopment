@@ -1,4 +1,4 @@
-﻿@model Player
+﻿@model Merchandise
 @{
     Layout = "_Layout";
 }
@@ -9,13 +9,13 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <link href="~/css/StyleSheet.css" rel="stylesheet" />
-    <title>ManagePlayers</title>
+    <title>Merchandise</title>
 </head>
 <body>
     <main>
-        <h2>Edit Players</h2>
-        <form method="post" asp-action="EditPlayer" asp-controller="Player">
-            @Html.Partial("AddPlayerPartialView")
+        <h2>Add Merchandise</h2>
+        <form method="post" asp-action="AddMerchandise" asp-controller="Merchandise">
+            @Html.Partial("AddMerchandisePartialView")
         </form>
     </main>
 </body>

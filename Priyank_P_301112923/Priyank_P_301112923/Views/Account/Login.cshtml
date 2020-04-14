@@ -1,20 +1,22 @@
 ﻿@model Priyank_P_301112923.Models.ViewModels.LoginModel
-@{ 
+@{
     ViewBag.Title = "Log In";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    <link href="~/css/StyleSheet.css" rel="stylesheet" />
-    <form asp-action="Login" asp-controller="Account" method="post">
-        <h2>Log In</h2>
-        <input type="hidden" asp-for="ReturnUrl" />
-        <p>
-            <label asp-for="Name">Name:</label>
-            <span asp-validation-for="Name"></span>
-            <input asp-for="Name" />
-        </p>
-        <p>
-            <label asp-for="Password">Password:</label>
-            <span asp-validation-for="Password"></span>
-            <input asp-for="Password" />
-        </p>
-        <button class="button" type="submit">Log In</button>
-    </form>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+<form asp-action="Login" asp-controller="Account" method="post">
+    <h2>Log In</h2>
+    <input type="hidden" asp-for="ReturnUrl" />
+    <p>
+        <label asp-for="UserName">Name:</label>
+        <span asp-validation-for="UserName"></span>
+        <input asp-for="UserName" />
+    </p>
+    <p>
+        <label asp-for="Password">Password:</label>
+        <span asp-validation-for="Password"></span>
+        <input asp-for="Password" />
+    </p>
+    <button class="button" type="submit" asp-controller="Account" asp-action="Login">Log In</button>
+    <button class="button" type="submit" asp-action="/Register">Register</button>
+</form>  

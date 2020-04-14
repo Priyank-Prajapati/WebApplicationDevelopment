@@ -8,10 +8,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Player</title>
+    <title>Players</title>
 </head>
 <body>
     <main>
+        <h2>Player Details </h2>
+        <h4><a class="right" asp-controller="Player" asp-action="ManagePlayers">Add Player</a></h4>
+        @if (TempData["pmsg"] != null)
+        {
+            <div>@TempData["pmsg"]</div>
+
+        }
         <table>
             @foreach (Player player in Model)
             {

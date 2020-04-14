@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Merchandise>
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Merchandise</title>
+</head>
+<body>
+    <main>
+        <h2>Merchandise Details</h2>
+        @if (TempData["Mmsg"] != null)
+        {
+            <div>@TempData["Mmsg"]</div>
+
+        }
+        <table>
+            @foreach (Merchandise merchandise in Model)
+            {
+                <tr>
+                    <td><a>@merchandise.ProductName</a></td>
+                    <td>@merchandise.ProductClub</td>
+                    <td>@merchandise.ProductPrice</td>
+                </tr>
+                <tr>
+                    <td>@merchandise.ProductType</td>
+                    <td>@merchandise.ProductDescription</td>
+                </tr>
+                <tr>
+                    <td><a class="button" asp-action="EditMerchandise" asp-route-id="@merchandise.ID">Update</a></td>
+                    <td>
+                        <form asp-action="Delete" method="post">
+                            <input type="hidden" name="ID" value="@merchandise.ID" />
+                            <button class="button" type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </table>
+    </main>
+</body>
+</html>

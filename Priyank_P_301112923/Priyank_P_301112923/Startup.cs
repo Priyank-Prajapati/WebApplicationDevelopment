@@ -10,6 +10,7 @@ using Priyank_P_301112923.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Priyank_P_301112923.Models.Users;
 
 namespace Priyank_P_301112923
 {
@@ -29,11 +30,18 @@ namespace Priyank_P_301112923
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options.UseSqlServer(
                     Configuration["Data:SoccerClubsIdentity:ConnectionString"]));
-            services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<AppIdentityDbContext>()
-                .AddDefaultTokenProviders();
+
+
+            services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.User.RequireUniqueEmail = false;
+            }).AddEntityFrameworkStores<AppIdentityDbContext>()
+            .AddDefaultTokenProviders();
+
+
             services.AddTransient<IClubRepository, EFClubRepository>();
             services.AddTransient<IPlayerRepository, EFPlayerRepository>();
+            services.AddTransient<IMerchandiseRepository, EFMerchandiseRepository>();
             services.AddMvc();
         }
 
@@ -54,7 +62,6 @@ namespace Priyank_P_301112923
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
             SeedData.EnsurePopulated(app);
-            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

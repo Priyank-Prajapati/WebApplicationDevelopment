@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Merchandise>
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Merchandise</title>
+</head>
+<body>
+    <main>
+        <h2>Merchandise</h2>
+        @if (TempData["Mmsg"] != null)
+        {
+            <div>@TempData["Mmsg"]</div>
+
+        }
+        <table>
+            @foreach (Merchandise merchandise in Model)
+            {
+                <tr>
+                    <td> </td>
+                    <td><a asp-action="MerchandiseDetails" asp-route-id="@merchandise.ID">@merchandise.ProductName</a></td>
+                    <td>@merchandise.ProductClub</td>
+                    <td>@merchandise.ProductPrice</td>
+                </tr>
+            }
+        </table>
+        <a class="button" asp-action="AddMerchandise" asp-controller="Merchandise">
+            Add Merchandise
+        </a>
+    </main>
+</body>
+</html>

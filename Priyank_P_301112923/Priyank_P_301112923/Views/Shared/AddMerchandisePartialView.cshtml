@@ -1,0 +1,48 @@
+﻿@model Merchandise
+
+@if (TempData["Mmsg"] != null)
+{
+    <div>@TempData["Mmsg"]</div>
+
+}
+<p>
+    <input type="hidden" asp-for="ID" />
+</p>
+<p>
+    <label asp-for="ProductName">Name:</label>
+    <input asp-for="ProductName" />
+</p>
+<p>
+    <label asp-for="ProductType">Type:</label>
+    <input asp-for="ProductType" />
+</p>
+<p>
+    <label asp-for="ProductPrice">Price:</label>
+    <input asp-for="ProductPrice" />
+</p>
+<p>
+    <label>Club:</label>
+    @if (ViewBag.Name != null)
+    {
+        <select id="Club" asp-for="ProductClub">
+            <option value="@ViewBag.Name">@ViewBag.Name</option>
+        </select>
+    }
+    else
+    {
+        <select id="Club" asp-for="ProductClub">
+            @foreach (var item in ViewBag.Club)
+            {
+                <option value="@item.Name">@item.Name</option>
+            }
+        </select>
+    }
+</p>
+<p>
+    <label asp-for="ProductDescription">Description:</label>
+    <input asp-for="ProductDescription" />
+</p>
+<p>
+    <button class="button" type="submit">Save</button>
+    <button class="button" type="reset">Cancel</button>
+</p>

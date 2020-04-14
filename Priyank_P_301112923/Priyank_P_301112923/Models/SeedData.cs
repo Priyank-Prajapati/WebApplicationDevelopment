@@ -31,6 +31,19 @@ namespace Priyank_P_301112923.Models
                     });
                 context.SaveChanges();
             }
+            if(!context.Merchandises.Any())
+            {
+                context.Merchandises.AddRange(
+                    new Merchandise
+                    {
+                        ProductName = "Nike Football",
+                        ProductType = "Sports",
+                        ProductPrice = 19,
+                        ProductClub = "Arsenal",
+                        ProductDescription = "Latest Arsenal Nike Football."
+                    });
+                context.SaveChanges();
+            }
         }
     }
 }
